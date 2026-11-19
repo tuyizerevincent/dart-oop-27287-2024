@@ -20,6 +20,24 @@ it protects the money on the card. A user should
 add money using topUp() and spend money using pay().
 These methods check the amount before changing the balance.
 
+===================== part 2 :studentcar using inheritance =================
+Question for your README: what does 
+~/ do?
+{answer : operator divides two numbers and gives a whole number without the decimol part}
+
+ Try 
+print(237 * 17 / 100);
+{ answer : 237 *17 /100 =40.29 } 
+          and
+print(237 * 17 ~/ 100); 
+{answer : 237 * 17 -/ 100 =40}
+
+the difference is { it is useful when calculating the student discount because the result is whole a number}.
+
+
+
+
+
 ======================================= PART 3 ================
 !! output of main.dart
 Error :name too short
