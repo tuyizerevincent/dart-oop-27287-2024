@@ -76,3 +76,12 @@ Bug    THE line /problem         why is it wrong                              yo
 5
 the first bag print 0 because it items that return first  
 the bigbag prints 5  because each add() call add two items then one more  item added
+
+2. commit with message part5 prediction
+
+3. real output is 
+{ 1,5}
+the first bag print 1 because the setter reject negative values 
+the bigbag prints 5  because each add() call add two items then one more  item added
+
+------
