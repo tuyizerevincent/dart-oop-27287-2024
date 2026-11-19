@@ -68,3 +68,11 @@ Bug    THE line /problem         why is it wrong                              yo
 4      |Missing battery setter   |Battery cannot be changed using assignment  |Add a setter from 0 to 100
 5      |p.battery()              |A getter is not a method                    |Use p.battery
 
+================ PART 5 :Predict the output =========================================
+
+1.my prediction it will print 
+
+0
+5
+the first bag print 0 because it items that return first  
+the bigbag prints 5  because each add() call add two items then one more  item added
