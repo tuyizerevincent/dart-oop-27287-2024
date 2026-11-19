@@ -35,7 +35,7 @@ print(237 * 17 ~/ 100);
 the difference is { it is useful when calculating the student discount because the result is whole a number}.
 
 
-======================================= PART 3Use your classes in main ================
+======================================= PART 3 :Use your classes in main ================
 !! output of main.dart
 Error :name too short
 Owner:Ama |Balance:1870 RWf
@@ -52,4 +52,19 @@ Student card: 17% off
 PS C:\Users\IT_VINCENT\dart-oop-27287-2024>
 
 =================================== part 4  Bug hunt ============
+
+output :100
+
+The line Phone p = new Phone('Tecno',50); is not a bug.
+
+It is correct because Dart allows the use of new when
+creating an object. The new keyword is optional, but
+it does not cause an error
+
+Bug    THE line /problem         why is it wrong                              your_fix
+1      |brand and _battery       |They have no starting values                |Initialize the fields
+2      |SmartPhone constructor   |It does not initialize the parent class     |Add super(brand, battery)
+3      |@override restart()      |The parent class has no restart method      |Add restart() to Phone
+4      |Missing battery setter   |Battery cannot be changed using assignment  |Add a setter from 0 to 100
+5      |p.battery()              |A getter is not a method                    |Use p.battery
 
