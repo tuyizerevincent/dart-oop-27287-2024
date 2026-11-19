@@ -35,10 +35,7 @@ print(237 * 17 ~/ 100);
 the difference is { it is useful when calculating the student discount because the result is whole a number}.
 
 
-
-
-
-======================================= PART 3 ================
+======================================= PART 3Use your classes in main ================
 !! output of main.dart
 Error :name too short
 Owner:Ama |Balance:1870 RWf
@@ -53,4 +50,6 @@ Paid 239 RWF
 Owner: Tuyizere Vincent | Balance: 1631 RWF
 Student card: 17% off
 PS C:\Users\IT_VINCENT\dart-oop-27287-2024>
+
+=================================== part 4  Bug hunt ============
 

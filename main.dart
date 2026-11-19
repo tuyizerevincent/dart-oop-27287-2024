@@ -2,7 +2,7 @@
 // Registration Number: 27287
 // Assignment: Kigali Bus Card
 // ================== part 1: The BusCard class  ===========
-/*class BusCard {
+class BusCard {
   String _owner = '';
   int _balance = 0;
 
@@ -61,8 +61,7 @@
 class StudentCard extends BusCard {
   int _discount = 0;
 
-  StudentCard(String owner, int balance, int discount)
-      : super(owner, balance) {
+  StudentCard(String owner, int balance, int discount) : super(owner, balance) {
     _discount = discount;
   }
 
@@ -112,15 +111,48 @@ void main() {
   card.showInfo();
 
   // TODO 8: Create student card
-  StudentCard student = StudentCard(
-    'Tuyizere Vincent',
-    1870,
-    17
-  );
+  StudentCard student = StudentCard('Tuyizere Vincent', 1870, 17);
 
   // TODO 9: Pay using student card
   student.pay(287);
   student.showInfo();
 }
-*/
+
 //===========================part 3 :=====================================
+
+// PART 3: Main method
+
+void main1() {
+  // My personal numbers
+  // Registration Number = 27287
+  // D = 87, L = 7
+  // Starting balance = 1870 RWF
+  // Bus fare = 287 RWF
+  // Student discount = 17%
+
+  // Create a normal bus card
+  BusCard card = BusCard('Ama', 1870);
+
+  card.owner = 'Al';
+  card.showInfo();
+
+  // TODO 5: Change owner to my full name
+  card.owner = 'Tuyizere Vincent';
+  card.showInfo();
+
+  // TODO 6: Test top up
+  card.topUp(100);
+  card.topUp(2000);
+
+  // TODO 7: Pay bus fare two times
+  card.pay(287);
+  card.pay(287);
+  card.showInfo();
+
+  // TODO 8: Create a StudentCard
+  StudentCard student = StudentCard('Tuyizere Vincent', 1870, 17);
+
+  // TODO 9: Pay using student card
+  student.pay(287);
+  student.showInfo();
+}
