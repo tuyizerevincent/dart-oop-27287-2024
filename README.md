@@ -9,6 +9,17 @@ starting balance =1870 RWF
 bus fare =287 RWF
 Student discount =17%
 
+======== part 1 The BusCard class===========
+Question for your README: there is no setter for 
+balance . Why is that a good idea for a
+bus card?
+
+there is no a setter for balance : yes
+ why :is a good idea because
+it protects the money on the card. A user should
+add money using topUp() and spend money using pay().
+These methods check the amount before changing the balance.
+
 ======================================= PART 3 ================
 !! output of main.dart
 Error :name too short

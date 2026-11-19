@@ -2,7 +2,7 @@
 // Registration Number: 27287
 // Assignment: Kigali Bus Card
 
-class BusCard {
+/*class BusCard {
   String _owner = '';
   int _balance = 0;
 
@@ -122,3 +122,4 @@ void main() {
   student.pay(287);
   student.showInfo();
 }
+*/
