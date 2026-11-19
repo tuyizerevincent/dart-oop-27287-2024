@@ -9,6 +9,7 @@ starting balance =1870 RWF
 bus fare =287 RWF
 Student discount =17%
 
+======================================= PART 3 ================
 !! output of main.dart
 Error :name too short
 Owner:Ama |Balance:1870 RWf
