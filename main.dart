@@ -1,7 +1,7 @@
 // Student Name: Tuyizere Vincent
 // Registration Number: 27287
 // Assignment: Kigali Bus Card
-
+// ================== part 1: The BusCard class  ===========
 /*class BusCard {
   String _owner = '';
   int _balance = 0;
@@ -57,7 +57,7 @@
   }
 }
 
-// PART 2: StudentCard
+//===================== part 2 : StudentCard, using inheritance =========
 class StudentCard extends BusCard {
   int _discount = 0;
 
@@ -83,7 +83,7 @@ class StudentCard extends BusCard {
   }
 }
 
-// PART 3: Main method
+//  Main method
 void main() {
   // My personal numbers
   // Registration Number: 27287
@@ -123,3 +123,4 @@ void main() {
   student.showInfo();
 }
 */
+//===========================part 3 :=====================================
